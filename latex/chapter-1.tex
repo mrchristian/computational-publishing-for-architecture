@@ -1,0 +1,241 @@
+% © 2022 Simon Worthington
+% https://creativecommons.org/licenses/by-sa/4.0/
+
+
+\documentclass{article}
+
+                
+\usepackage{titling}
+                
+\newcommand{\subtitle}[1]{%
+                    
+	\posttitle{%
+                        
+		\par\end{center}
+                        
+		\begin{center}\large#1\end{center}
+                        
+		\vskip 0.5em}%
+                }
+            
+                
+\usepackage{authblk}
+                
+\makeatletter
+                
+\let\@fnsymbol\@alph
+                
+\makeatother
+            
+                
+\def\keywords{\vspace{.5em}
+                
+{\textit{Keywords}:\,\relax%
+                
+}}
+                
+\def\endkeywords{\par}
+                
+\newcommand{\sep}{, }
+            
+\usepackage{hyperref}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{enumitem}
+\author{Simon Worthington\thanks{simon.worthington@tib.eu}}
+\affil{TIB – Leibniz Information Centre for Science and Technology}
+
+
+\begin{document}
+
+\title{Computational Publishing for Architecture}
+\subtitle{Using Enhance Publishing Principles — Research Workplan}
+
+\maketitle
+
+\begin{abstract}
+
+
+The project is being conducted in the context of NFDI4Culture — a German research infrastructure consortium and with COPIM an international partnership working on open infrastruictures for monographs.  
+
+
+The central question for the project is how can an existing publishers infrastructures and workflows incorporate computational publishing — combinations of text and executable code — as applicable to the topic area of architecture. In addition we will be loooking at how 'enhanced publishing  principles' for open access and FAIR-publishing can support the use of computational publishing. 
+
+\end{abstract}
+
+\keywords{computational publishing\sep enhanced publishing\sep open access\sep open science publishing\sep academic publishing\sep infrastructure\sep NFDI4Culture\sep NFDI\sep architecture\sep open source\sep open standards\sep linked open data\sep publishing from archives}
+
+Date: 2022-03-10
+
+
+© The Authors, CC BY SA 4.0 \href{https://creativecommons.org/licenses/by-sa/4.0/}{https://creativecommons.org/licenses/by-sa/4.0/} 
+
+
+\href{https://nfdi4culture.de/}{NFDI4Culture} – Consortium for Research Data on Material and Immaterial Cultural Heritage. NFDI4Culture is the consortium within the Nationale Forschungsdaten­infrastruktur (NFDI).
+
+
+\href{https://www.copim.ac.uk/}{COPIM} (Community-led Open Publication Infrastructures for Monographs).
+
+
+\subsection{Concepts}\label{H6504202}
+
+
+\begin{itemize}
+\item \textbf{Enhanced Publishing:} How to make a \textbf{publication open} in the context of modern computational and networked systems, and what \textbf{additional functionality} and \textbf{enrichment} can be added. What types of \textbf{requirements }are made of scholarly publishing to be fully open, and \textbf{how these are implemented }in systems or infrastructure. The Enhanced Publications project is an activity of NFDI4Culture, Task Area 4. \autocite{WorthingtonSimon20220303}
+
+
+\item \textbf{Computational publishing (Literate programming):} Computational publishing means to combine both text and computational functionality on a single document. The modern instantiation is Jupyter Notebooks with reproducability of science literature accoutning for the popularity. Computational publishing has its roots in the 1945 idea of the Memex by Vannevar Bush and then later 1972 Dynabook as outlines by Alan Kay.\autocite{OdewahnAndrew20210619T14:43:08Z} For the project the following compuational publishing platforms will be used: Jupyter Notebooks and Curvenote.
+
+
+\item \textbf{Architecture:} The context for architecture in this project is in two areas, firstly, in terms of the history of architecture and its open publishing representation; secondly, in contemporary pracice of either using open-source tools, studio practice, or in modelling related to questions such as 'open energy modelling.
+
+
+\item \textbf{Publication infrastructures:} For open publishing using computational publishing and enhanced publishing criteria the questions are about integration and compatibility. The publishing infrastructures being covered will be conventional monographs, research papers, and include editing platforms, linked open data, 3D models, and semantic video. The infrastructures being used in the project will be Open Book Publishing (OBP) and the ADA Pipeline (TIB).
+
+
+\end{itemize}
+
+\subsection{Motivation}\label{H2831995}
+
+
+
+
+
+
+\subsection{Workplan}\label{H819867}
+
+
+\begin{enumerate}
+\item Scope
+
+\begin{enumerate}
+\item Select enhanced publishing features to test
+
+
+\end{enumerate}
+\begin{enumerate}[start=2]
+\item Select architectural computational publishing features to test
+
+
+\item Define uses cases and personas (users)
+
+
+\item Define workflow for publishing infrastructures in use: OBP and ADA Pipeline
+
+
+\end{enumerate}
+
+\item Proof of concept demo
+
+\begin{enumerate}
+\item Execute part one 'Scope' in the OBP and ADA publishing infrastructures and produce a demonstration of the workflows and example publication outputs. The contents would be technical proof-of-concept examples for demonstration purposes. 
+
+
+\item The proof-of-concept would be run as a public facing open demonstration for the purpose of community engagement.
+
+
+\end{enumerate}
+
+\item Demonstration mockups
+
+\begin{enumerate}
+\item Bring on board two partner projects from architecture to create demonstration mockup with a real publication content.
+
+\begin{enumerate}
+\item One mockup would be for contemporary architecture
+
+
+\item One mockup for historical architecture
+
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{enumerate}
+
+\subsection{Schedule}\label{H8614052}
+
+
+
+\textbf{March / April 2022}
+
+\begin{itemize}
+\item Scope
+
+
+\end{itemize}
+
+\textbf{May / June 2022}
+
+\begin{itemize}
+\item Proof-of-concept
+
+
+\end{itemize}
+
+\textbf{Sept / Oct 2022}
+
+\begin{itemize}
+\item Demonstrations
+
+
+\end{itemize}
+
+\subsection{Communities}\label{H637961}
+
+
+\begin{itemize}
+\item COPIM
+
+
+\item NFDI4Culture
+
+
+\item Open Architecture
+
+
+\item Open Energy Modelling
+
+
+\item CEVOpen / Pter Murray Rust
+
+
+\end{itemize}
+
+\subsection{Planned outputs}\label{H6024753}
+
+
+\begin{itemize}
+\item Project outline: Work plan
+
+
+\item Blogposts: Announce; others
+
+
+\item Public engagement using mockup building: Proof-of-concept; Demostrations - use a model of 100 days of Juypter e.g., Daniel Miechen \href{https://github.com/Daniel-Mietchen/100-days-of-python}{https://github.com/Daniel-Mietchen/100-days-of-python} 
+
+
+\item Preprint; Paper
+
+
+\item Workshop (participation and planning) NFDI4Culure - TIB Spring or Summer 2022
+
+
+\end{itemize}
+
+\subsection{}\label{H6872714}
+
+
+
+
+
+
+
+
+
+\printbibliography[title={Bibliography}]
+\end{document}

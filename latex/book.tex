@@ -1,0 +1,57 @@
+\documentclass[11pt]{book}
+
+                
+\usepackage{titling}
+                
+\newcommand{\subtitle}[1]{%
+                    
+	\posttitle{%
+                        
+		\par\end{center}
+                        
+		\begin{center}\large#1\end{center}
+                        
+		\vskip 0.5em}%
+                }
+            
+                
+\usepackage{authblk}
+                
+\makeatletter
+                
+\let\@fnsymbol\@alph
+                
+\makeatother
+            
+                
+\def\keywords{\vspace{.5em}
+                
+{\textit{Keywords}:\,\relax%
+                
+}}
+                
+\def\endkeywords{\par}
+                
+\newcommand{\sep}{, }
+            
+\usepackage{hyperref}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{enumitem}
+\usepackage{docmute}
+\title{Computational Publishing for Architecture}
+\author{Simon Worthington}
+\begin{document}
+\maketitle
+\def\title#1{\chapter{#1}}
+\tableofcontents
+
+        \input{chapter-1}
+        
+
+
+\printbibliography[title={Bibliography}]
+\end{document}
