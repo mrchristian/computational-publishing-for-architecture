@@ -1,8 +1,4 @@
-## ADA Book Template
+## Computational Publishing for Architecture
 
-See information here: [/about-ada-book-template](/about-ada-book-template/readme.md)
+An X-Sketchbook Research Work Plan
 
-  * Licence
-  * Contribute
-  * Credits
-  * Techstack
